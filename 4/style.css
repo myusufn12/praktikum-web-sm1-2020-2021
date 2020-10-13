@@ -1,0 +1,181 @@
+/* Untuk diisi */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h4,
+small,
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+html {
+    position: relative;
+}
+
+body {
+    margin-bottom: 100px;
+    margin-top: 30px;
+    color: black;
+    background-color: rgb(213, 248, 236);
+   
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #147fb1;
+    width: auto;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover {
+    background-color: #ff3333;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    padding-top: 15px;
+    text-align: center;
+    color: aliceblue;
+}
+
+
+
+.konten {
+    border: 15px solid#333;
+    padding: 20px;
+    margin: 20px;
+    bottom: 50px;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+}
+
+h4 {
+    list-style-type: none;
+    margin: 20px;
+    padding: 20px;
+    overflow: hidden;
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+
+}
+
+
+
+
+h4 {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+    background-color: #147fb1;
+
+  width: auto;
+  display: block;
+
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/*latihan 1*/
+.container-satu{
+  width: auto;
+  margin: 50px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.kolom-utama{
+flex : 10;
+order : 1;
+}
+
+.sidebar-satu{
+flex : 3;
+order : 3;
+}
+
+/* latihan 2 */
+
+.container-dua {
+  width: 800px;
+  margin: 50px auto;
+  
+
+}
+
+.layanan {
+  width: 30%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  
+}
+
+.layanan.satu {
+background-color: #ff3333;
+}
+.layanan.dua {
+background-color: aqua;
+}
+
+.layanan.tiga {
+background-color: chartreuse;
+}
+
+/*Responsive*/
+
+@media ( min-width: 700px ) {
+  .container-dua {
+    display: flex;
+  justify-content: space-between;
+  }
+  .layanan {
+    width: 30%;
+  }
+}
