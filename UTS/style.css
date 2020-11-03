@@ -1,0 +1,196 @@
+/* Untuk diisi */
+h1,
+h4,
+small,
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+html {
+    position: relative;
+}
+
+body {
+    margin-bottom: 100px;
+    margin-top: 30px;
+    color: rgb(247, 247, 247);
+    background-color: rgb(150, 6, 95);
+   
+
+}
+
+
+
+
+
+
+.konten {
+    border: 15px solid#333;
+    padding: 20px;
+    margin: 20px;
+    bottom: 50px;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+}
+
+
+h4 {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+   
+
+  width: auto;
+  display: block;
+
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Commissioner', sans-serif;
+font-family: 'Lemonada', cursive;
+}
+
+h5 {
+  font-family: 'Chilanka', cursive;
+font-family: 'Commissioner', sans-serif;
+font-family: 'Lemonada', cursive;
+}
+
+/*latihan 1*/
+.container-satu{
+  width: auto;
+  margin: 50px auto;
+  background-color: #eb2a2a;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.kolom-utama{
+flex : 10;
+order : 1;
+}
+
+.sidebar-satu{
+flex : 3;
+order : 3;
+}
+
+/* latihan 2 */
+
+.container-dua {
+  width: 800px;
+  margin: 50px auto;
+  
+
+}
+
+.layanan {
+  width: 30%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  
+}
+
+.layanan.satu {
+background-color: #d31717;
+}
+.layanan.dua {
+background-color: rgb(8, 65, 65);
+}
+
+.layanan.tiga {
+background-color: rgb(42, 77, 8);
+}
+
+/*Responsive*/
+
+@media ( min-width: 700px ) {
+  .container-dua {
+    display: flex;
+  justify-content: space-between;
+  }
+  .layanan {
+    width: 30%;
+  }
+}
+
+
+.navbarr {
+  font-family: 'Commissioner', sans-serif;
+  font-family: 'Lemonada', cursive;
+}
+
+.container-satuu{
+  width: auto;
+  margin: 50px auto;
+  background-color: #052641;
+ 
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.kolom-utamaa{
+  flex : 10;
+  order : 1;
+  }
+  
+  .sidebar-satuu{
+  flex : 3;
+  order : 3;
+  }
+
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    padding-top: 5px;
+    text-align: center;
+    color: aliceblue;
+}
+
+
+.container-satuuu{
+  width: auto;
+  margin: 50px auto;
+  background-color: #aa4d00;
+ 
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.kolom-utamaaa{
+  flex : 10;
+  order : 1;
+  }
+  
+  .sidebar-satuuu{
+  flex : 3;
+  order : 3;
+  }
